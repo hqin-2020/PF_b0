@@ -7,8 +7,7 @@
 #SBATCH --partition=bigmem2
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=28
-#SBATCH --mem=512G
-#SBATCH --constraint=fdr
+#SBATCH --mem=256G
 
 # Load Python modules
 module load python/anaconda-2020.02
