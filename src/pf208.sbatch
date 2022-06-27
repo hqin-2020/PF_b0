@@ -4,7 +4,7 @@
 #SBATCH --output=pf208.out
 #SBATCH --error=pf208.err
 #SBATCH --time=4:00:00
-#SBATCH --partition=Broadway
+#SBATCH --partition=broadwl
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem-per-cpu=7000
