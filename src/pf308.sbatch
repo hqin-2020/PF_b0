@@ -7,7 +7,7 @@
 #SBATCH --partition=broadwl
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=8
-#SBATCH --mem-per-cpu=8G
+#SBATCH --mem-per-cpu=8000
 #SBATCH --constraint=fdr
 
 # Load Python modules
