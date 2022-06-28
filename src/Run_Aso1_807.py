@@ -23,7 +23,7 @@ if __name__ == '__main__':
     obs_series = np.array(obs_series.iloc[:,1:]).T
 
     T = obs_series.shape[1]
-    N = 50_000
+    N = 80_000
     Λ_scale = 1
     cd_scale = 1
 

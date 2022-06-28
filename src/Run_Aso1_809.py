@@ -17,13 +17,13 @@ if __name__ == '__main__':
     datadir = workdir + '/data/'
     outputdir = workdir + '/output/'
 
-    seed = 8
+    seed = 9
 
     obs_series = pd.read_csv(datadir + 'data.csv', delimiter=',')
     obs_series = np.array(obs_series.iloc[:,1:]).T
 
     T = obs_series.shape[1]
-    N = 200_000
+    N = 80_000
     Λ_scale = 1
     cd_scale = 1
 
