@@ -7,7 +7,7 @@
 #SBATCH --partition=broadwl
 #SBATCH --nodes=4
 #SBATCH --cpus-per-task=8
-#SBATCH --mem-per-cpu=72000
+#SBATCH --mem-per-cpu=7200
 
 # Load Python modules
 module load python/anaconda-2020.02
